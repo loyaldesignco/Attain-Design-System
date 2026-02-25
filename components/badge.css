@@ -1,0 +1,18 @@
+.ac-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: var(--ac-radius-pill);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+/* Maturity badges (map to your maturity model) */
+.ac-badge--foundational { background: rgba(227, 59, 37, 0.12); color: #e33b25; border-color: rgba(227, 59, 37, 0.25); }
+.ac-badge--developing   { background: rgba(245, 124, 0, 0.12); color: #f57c00; border-color: rgba(245, 124, 0, 0.25); }
+.ac-badge--advanced     { background: rgba(21, 101, 192, 0.12); color: #1565c0; border-color: rgba(21, 101, 192, 0.25); }
+.ac-badge--leading      { background: rgba(46, 125, 50, 0.12); color: #2e7d32; border-color: rgba(46, 125, 50, 0.25); }

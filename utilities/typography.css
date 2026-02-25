@@ -1,0 +1,8 @@
+.ac-h1 { font-size: var(--ac-font-size-48); line-height: 1.1; }
+.ac-h2 { font-size: var(--ac-font-size-32); line-height: 1.15; }
+.ac-h3 { font-size: var(--ac-font-size-24); line-height: 1.2; }
+
+.ac-body { font-size: var(--ac-font-size-16); }
+.ac-small { font-size: var(--ac-font-size-14); }
+.ac-mono { font-family: var(--ac-font-mono); }
+.ac-muted { color: var(--ac-semantic-text-muted); }
