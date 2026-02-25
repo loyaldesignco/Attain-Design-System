@@ -1,31 +1,41 @@
 /* ==========================================================================
-   Attain Design System — Font Placeholder
-   Replace placeholder src paths with your actual self-hosted font files.
+   Attain Design System — Fonts
+   Source files (as committed):
+   - EncodeSans-VariableFont_wdth,wght.ttf
+   - Inter-VariableFont_opsz,wght.ttf
+   - Inter-Italic-VariableFont_opsz,wght.ttf
    ========================================================================== */
 
-/* Example: Encode Sans Variable (Heading) */
+/* Encode Sans Variable (wdth + wght) */
 @font-face {
-  font-family: "Encode Sans Variable";
-  src:
-    url("./encode-sans/EncodeSans-Variable.woff2") format("woff2");
+  font-family: "Encode Sans";
+  src: url("./EncodeSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
-/* Example: Inter Variable (Body/Button) */
+/* Inter Variable (opsz + wght) */
 @font-face {
-  font-family: "Inter Variable";
-  src:
-    url("./inter/Inter-Variable.woff2") format("woff2");
+  font-family: "Inter";
+  src: url("./Inter-VariableFont_opsz,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
-/* Optional aliases (so components/examples can reference stable names) */
+/* Inter Variable Italic (opsz + wght) */
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Stable aliases for the rest of the system */
 :root {
-  --ac-font-heading: "Encode Sans Variable", "Encode Sans", Arial, sans-serif;
-  --ac-font-body: "Inter Variable", "Inter", system-ui, sans-serif;
+  --ac-font-heading: "Encode Sans", Arial, sans-serif;
+  --ac-font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --ac-font-button: var(--ac-font-body);
 }
