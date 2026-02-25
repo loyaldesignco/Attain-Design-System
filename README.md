@@ -1,48 +1,19 @@
-# Attain Concepts Design System
+# Attain Design System
 
-Token-driven CSS design system with primitives, utilities, components, and patterns.
+Documentation-first design system repository for Attain Concepts.
 
-## Structure
+## Included in this scaffold
+- `docs/` structure (matching your existing repo pattern)
+- `tokens/` exports generated from provided CSV variables
+- `examples/` HTML demos
+- `assets/logos/` with provided SVG logos
+- `assets/fonts/` placeholders for self-hosted fonts
 
-- `primitives/` — design tokens + base styles
-- `utilities/` — layout helpers (grid, stack, container)
-- `components/` — reusable UI components (button, card, badge, etc.)
-- `motion/` — transition + easing conventions
-- `tokens/` — source-of-truth token JSON (optional; useful if you later add a build step)
+## Token source
+Generated from:
+- `variables (4).csv`
+- `variables (5).csv`
 
-## Quick start (static CSS)
-
-1) Include the design system CSS:
-```html
-<link rel="stylesheet" href="./primitives/index.css">
-<link rel="stylesheet" href="./utilities/index.css">
-<link rel="stylesheet" href="./motion/index.css">
-<link rel="stylesheet" href="./components/index.css">
-```
-
-2) Use classes like:
-- `.ac-btn.ac-btn--primary`
-- `.ac-card`
-- `.ac-badge.ac-badge--foundational` (etc.)
-
-## Token workflow
-
-Your tokens live in `primitives/tokens.css`.
-- Edit values there.
-- Components and utilities only reference semantic tokens.
-- Keep token names stable; version breaking changes with semver.
-
-## Versioning
-
-- Patch: bug fixes, docs, non-breaking tweaks
-- Minor: new components/tokens (non-breaking)
-- Major: renames/removals, token contract changes
-
-## Conventions
-
-- Prefix everything with `ac-` (tokens) / `ac-` (classes) to avoid collisions.
-- Prefer semantic tokens (e.g., `--ac-semantic-text-primary`) inside components.
-- Motion: no bouncy easing; keep transitions subtle.
-
----
-Generated scaffold for Attain Concepts.
+## Notes
+- `tokens/css-variables.css` is the generated CSS custom property export.
+- `assets/fonts/fonts.css` is a placeholder and must be updated with your actual font file names.

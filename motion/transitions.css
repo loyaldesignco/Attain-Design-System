@@ -1,7 +1,0 @@
-.ac-transition {
-  transition: all var(--ac-duration-medium) var(--ac-ease-standard);
-}
-
-.ac-hover-lift:hover {
-  transform: translateY(-2px);
-}

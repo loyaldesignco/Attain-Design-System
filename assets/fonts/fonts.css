@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Attain Design System — Font Placeholder
+   Replace placeholder src paths with your actual self-hosted font files.
+   ========================================================================== */
+
+/* Example: Encode Sans Variable (Heading) */
+@font-face {
+  font-family: "Encode Sans Variable";
+  src:
+    url("./encode-sans/EncodeSans-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Example: Inter Variable (Body/Button) */
+@font-face {
+  font-family: "Inter Variable";
+  src:
+    url("./inter/Inter-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Optional aliases (so components/examples can reference stable names) */
+:root {
+  --ac-font-heading: "Encode Sans Variable", "Encode Sans", Arial, sans-serif;
+  --ac-font-body: "Inter Variable", "Inter", system-ui, sans-serif;
+  --ac-font-button: var(--ac-font-body);
+}

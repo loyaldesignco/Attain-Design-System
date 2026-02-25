@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attain Design System — Landing Example</title>
+  <link rel="stylesheet" href="../assets/fonts/fonts.css">
+  <link rel="stylesheet" href="../tokens/css-variables.css">
+  <style>
+    body { margin:0; font-family: var(--ac-font-body, Inter, system-ui, sans-serif); background: var(--ac-background-color_bg-primary, #f4f4ef); color: var(--ac-text-color_text-primary, #151617); }
+    .hero { background: var(--ac-background-color_bg-inverse, #151617); color: var(--ac-text-color_text-inverse-primary, #f4f4ef); padding: 4.5rem 2rem; }
+    .inner { max-width: var(--ac-container_container-width, 1280px); margin:0 auto; }
+    .logo { height: 34px; margin-bottom: 1rem; }
+    .pill { display:inline-block; padding:.35rem .75rem; border-radius: var(--ac-radius-round, 100rem); background: var(--ac-core-color-tint_accent-primary-a10, rgba(227,59,37,.1)); color: var(--ac-core-accent-color_accent-primary, #e33b25); font-weight:600; margin-bottom: 1rem; }
+    h1 { margin:0 0 1rem; font-family: var(--ac-font-heading, inherit); max-width: 16ch; line-height:1.05; }
+    p { margin:0 0 1.25rem; max-width: 65ch; opacity: .9; }
+    .cta { display:inline-block; padding: 1rem 1.25rem; border-radius: var(--ac-button_button-radius, .75rem); background: var(--ac-core-accent-color_accent-primary, #e33b25); color: var(--ac-text-color_text-accent-on-primary, #fff); text-decoration:none; font-family: var(--ac-font-button, inherit); font-weight:700; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="inner">
+      <img class="logo" src="../assets/logos/Attain-invert.svg" alt="Attain logo inverted">
+      <span class="pill">Docs-first Scaffold</span>
+      <h1>Attain repo structure matched with logos and font placeholders included.</h1>
+      <p>This demo references your generated token file and the font placeholder stylesheet so you can drop in licensed font files later without changing example markup.</p>
+      <a class="cta" href="./component-library.html">View Component Library</a>
+    </div>
+  </section>
+</body>
+</html>

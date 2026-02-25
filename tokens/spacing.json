@@ -1,0 +1,207 @@
+{
+  "generated_from": [
+    "variables (4).csv",
+    "variables (5).csv"
+  ],
+  "count": 22,
+  "items": [
+    {
+      "name": "Spacing/0.25x",
+      "type": "Size",
+      "value": "0.25",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_0_25x",
+      "css_value": "0.25rem"
+    },
+    {
+      "name": "Spacing/0.5x",
+      "type": "Size",
+      "value": "0.5",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_0_5x",
+      "css_value": "0.5rem"
+    },
+    {
+      "name": "Spacing/0.75x",
+      "type": "Size",
+      "value": "0.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_0_75x",
+      "css_value": "0.75rem"
+    },
+    {
+      "name": "Spacing/1x",
+      "type": "Size",
+      "value": "1",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_1x",
+      "css_value": "1rem"
+    },
+    {
+      "name": "Spacing/1.25x",
+      "type": "Size",
+      "value": "1.25",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_1_25x",
+      "css_value": "1.25rem"
+    },
+    {
+      "name": "Spacing/1.5x",
+      "type": "Size",
+      "value": "1.5",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_1_5x",
+      "css_value": "1.5rem"
+    },
+    {
+      "name": "Spacing/1.75x",
+      "type": "Size",
+      "value": "1.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_1_75x",
+      "css_value": "1.75rem"
+    },
+    {
+      "name": "Spacing/2x",
+      "type": "Size",
+      "value": "2",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_2x",
+      "css_value": "2rem"
+    },
+    {
+      "name": "Spacing/3x",
+      "type": "Size",
+      "value": "3",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_3x",
+      "css_value": "3rem"
+    },
+    {
+      "name": "Spacing/4x",
+      "type": "Size",
+      "value": "4",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_4x",
+      "css_value": "4rem"
+    },
+    {
+      "name": "Spacing/5x",
+      "type": "Size",
+      "value": "5",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_5x",
+      "css_value": "5rem"
+    },
+    {
+      "name": "Spacing/6x",
+      "type": "Size",
+      "value": "6",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_6x",
+      "css_value": "6rem"
+    },
+    {
+      "name": "Spacing/7x",
+      "type": "Size",
+      "value": "7",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_7x",
+      "css_value": "7rem"
+    },
+    {
+      "name": "Spacing/8x",
+      "type": "Size",
+      "value": "8",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-spacing_8x",
+      "css_value": "8rem"
+    },
+    {
+      "name": "Gap/XXS Gap",
+      "type": "Size",
+      "value": "Spacing/0.5x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_xxs-gap",
+      "css_value": "var(--ac-spacing_0_5x)"
+    },
+    {
+      "name": "Gap/XS Gap",
+      "type": "Size",
+      "value": "Spacing/1x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_xs-gap",
+      "css_value": "var(--ac-spacing_1x)"
+    },
+    {
+      "name": "Gap/SM Gap",
+      "type": "Size",
+      "value": "Spacing/2x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_sm-gap",
+      "css_value": "var(--ac-spacing_2x)"
+    },
+    {
+      "name": "Gap/MD Gap",
+      "type": "Size",
+      "value": "Spacing/3x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_md-gap",
+      "css_value": "var(--ac-spacing_3x)"
+    },
+    {
+      "name": "Gap/LG Gap",
+      "type": "Size",
+      "value": "Spacing/4x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_lg-gap",
+      "css_value": "var(--ac-spacing_4x)"
+    },
+    {
+      "name": "Gap/XL Gap",
+      "type": "Size",
+      "value": "Spacing/5x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_xl-gap",
+      "css_value": "var(--ac-spacing_5x)"
+    },
+    {
+      "name": "Gap/XXL Gap",
+      "type": "Size",
+      "value": "Spacing/6x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-gap_xxl-gap",
+      "css_value": "var(--ac-spacing_6x)"
+    },
+    {
+      "name": "Slider/Spacing SM",
+      "type": "Size",
+      "value": "Spacing/1x",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-slider_spacing-sm",
+      "css_value": "var(--ac-spacing_1x)"
+    }
+  ]
+}

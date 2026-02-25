@@ -1,0 +1,288 @@
+{
+  "generated_from": [
+    "variables (4).csv",
+    "variables (5).csv"
+  ],
+  "count": 31,
+  "items": [
+    {
+      "name": "Text Color/Text Primary",
+      "type": "Color",
+      "value": "Core Neutral Color/Neutral Inverse",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-color_text-primary",
+      "css_value": "var(--ac-core-neutral-color_neutral-inverse)"
+    },
+    {
+      "name": "Text Color/Text Secondary",
+      "type": "Color",
+      "value": "Core Color Tint/Neutral Inverse A60",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-color_text-secondary",
+      "css_value": "var(--ac-core-color-tint_neutral-inverse-a60)"
+    },
+    {
+      "name": "Text Color/Text Inverse Primary",
+      "type": "Color",
+      "value": "Core Neutral Color/Neutral Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-color_text-inverse-primary",
+      "css_value": "var(--ac-core-neutral-color_neutral-primary)"
+    },
+    {
+      "name": "Text Color/Text Inverse Secondary",
+      "type": "Color",
+      "value": "Core Color Tint/Neutral Primary A60",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-color_text-inverse-secondary",
+      "css_value": "var(--ac-core-color-tint_neutral-primary-a60)"
+    },
+    {
+      "name": "Text Color/Text On Accent Primary",
+      "type": "Color",
+      "value": "#F4F4EF",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-on-accent-primary",
+      "css_value": "#F4F4EF"
+    },
+    {
+      "name": "Text Color/Text On Accent Secondary",
+      "type": "Color",
+      "value": "#eb7566",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-on-accent-secondary",
+      "css_value": "#eb7566"
+    },
+    {
+      "name": "Text Color/Text On Accent Tertiary",
+      "type": "Color",
+      "value": "#eb7566",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-on-accent-tertiary",
+      "css_value": "#eb7566"
+    },
+    {
+      "name": "Text Color/Text Accent On Primary",
+      "type": "Color",
+      "value": "#eb7566",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-accent-on-primary",
+      "css_value": "#eb7566"
+    },
+    {
+      "name": "Text Color/Text Accent On Primary Hover",
+      "type": "Color",
+      "value": "hsla(6.766917293233079, 76.88%, 66.08%, 0.60)",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-accent-on-primary-hover",
+      "css_value": "hsla(6.766917293233079, 76.88%, 66.08%, 0.60)"
+    },
+    {
+      "name": "Text Color/Text Accent On Inverse",
+      "type": "Color",
+      "value": "#eb7566",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-accent-on-inverse",
+      "css_value": "#eb7566"
+    },
+    {
+      "name": "Text Color/Text Accent On Inverse Hover",
+      "type": "Color",
+      "value": "hsla(6.766917293233079, 76.88%, 66.08%, 0.60)",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-text-color_text-accent-on-inverse-hover",
+      "css_value": "hsla(6.766917293233079, 76.88%, 66.08%, 0.60)"
+    },
+    {
+      "name": "Text Color/Text On Overlay",
+      "type": "Color",
+      "value": "Core Neutral Color/Neutral Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-color_text-on-overlay",
+      "css_value": "var(--ac-core-neutral-color_neutral-primary)"
+    },
+    {
+      "name": "Blockquote/Blockquote Text",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-blockquote_blockquote-text",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Button/Button Primary - Text",
+      "type": "Color",
+      "value": "Text Color/Text On Accent Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-button_button-primary-text",
+      "css_value": "var(--ac-text-color_text-on-accent-primary)"
+    },
+    {
+      "name": "Button/Button Secondary - Text",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-button_button-secondary-text",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Input/Input Primary - Text",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-input_input-primary-text",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Input/Input Primary - Text Placeholder",
+      "type": "Color",
+      "value": "Core Color Tint/Neutral Inverse A20",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-input_input-primary-text-placeholder",
+      "css_value": "var(--ac-core-color-tint_neutral-inverse-a20)"
+    },
+    {
+      "name": "Input/Input Inverse - Text",
+      "type": "Color",
+      "value": "Text Color/Text Inverse Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-input_input-inverse-text",
+      "css_value": "var(--ac-text-color_text-inverse-primary)"
+    },
+    {
+      "name": "Input/Input Inverse - Text Placeholder",
+      "type": "Color",
+      "value": "Core Color Tint/Neutral Primary A50",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-input_input-inverse-text-placeholder",
+      "css_value": "var(--ac-core-color-tint_neutral-primary-a50)"
+    },
+    {
+      "name": "Card/Card Primary - Text",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-card_card-primary-text",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Card/Card Secondary - Text",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-card_card-secondary-text",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Card/Card Accent Primary - Text",
+      "type": "Color",
+      "value": "white",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-card_card-accent-primary-text",
+      "css_value": "white"
+    },
+    {
+      "name": "Card/Card Accent Secondary - Text",
+      "type": "Color",
+      "value": "white",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-card_card-accent-secondary-text",
+      "css_value": "white"
+    },
+    {
+      "name": "Card/Card Accent Tertiary - Text",
+      "type": "Color",
+      "value": "transparent",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-card_card-accent-tertiary-text",
+      "css_value": "transparent"
+    },
+    {
+      "name": "Card/Card Inverse - Text",
+      "type": "Color",
+      "value": "Text Color/Text Inverse Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-card_card-inverse-text",
+      "css_value": "var(--ac-text-color_text-inverse-primary)"
+    },
+    {
+      "name": "Text Link/Link Primary",
+      "type": "Color",
+      "value": "Text Color/Text Accent On Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-primary",
+      "css_value": "var(--ac-text-color_text-accent-on-primary)"
+    },
+    {
+      "name": "Text Link/Link Primary Hover",
+      "type": "Color",
+      "value": "Text Color/Text Accent On Primary Hover",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-primary-hover",
+      "css_value": "var(--ac-text-color_text-accent-on-primary-hover)"
+    },
+    {
+      "name": "Text Link/Link Secondary",
+      "type": "Color",
+      "value": "Text Color/Text Primary",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-secondary",
+      "css_value": "var(--ac-text-color_text-primary)"
+    },
+    {
+      "name": "Text Link/Link Secondary Hover",
+      "type": "Color",
+      "value": "Core Color Tint/Neutral Inverse A60",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-secondary-hover",
+      "css_value": "var(--ac-core-color-tint_neutral-inverse-a60)"
+    },
+    {
+      "name": "Text Link/Link Inverse",
+      "type": "Color",
+      "value": "Text Color/Text Accent On Inverse",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-inverse",
+      "css_value": "var(--ac-text-color_text-accent-on-inverse)"
+    },
+    {
+      "name": "Text Link/Link Inverse Hover",
+      "type": "Color",
+      "value": "Text Color/Text Accent On Inverse Hover",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-text-link_link-inverse-hover",
+      "css_value": "var(--ac-text-color_text-accent-on-inverse-hover)"
+    }
+  ]
+}

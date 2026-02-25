@@ -1,0 +1,99 @@
+{
+  "generated_from": [
+    "variables (4).csv",
+    "variables (5).csv"
+  ],
+  "count": 10,
+  "items": [
+    {
+      "name": "Radius/SM Radius",
+      "type": "Size",
+      "value": "0.25",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-radius_sm-radius",
+      "css_value": "0.25rem"
+    },
+    {
+      "name": "Radius/MD Radius",
+      "type": "Size",
+      "value": "0.5",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-radius_md-radius",
+      "css_value": "0.5rem"
+    },
+    {
+      "name": "Radius/LG Radius",
+      "type": "Size",
+      "value": "0.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-radius_lg-radius",
+      "css_value": "0.75rem"
+    },
+    {
+      "name": "Radius/XL Radius",
+      "type": "Size",
+      "value": "1",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-radius_xl-radius",
+      "css_value": "1rem"
+    },
+    {
+      "name": "Radius/Round",
+      "type": "Size",
+      "value": "100",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-radius_round",
+      "css_value": "100rem"
+    },
+    {
+      "name": "Image/Image Radius",
+      "type": "Size",
+      "value": "Card/Card Radius",
+      "unit": null,
+      "linked": true,
+      "css_var": "--ac-image_image-radius",
+      "css_value": "var(--ac-card_card-radius)"
+    },
+    {
+      "name": "Button/Button Radius",
+      "type": "Size",
+      "value": "0.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-button_button-radius",
+      "css_value": "0.75rem"
+    },
+    {
+      "name": "Input/Input Radius",
+      "type": "Size",
+      "value": "0.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-input_input-radius",
+      "css_value": "0.75rem"
+    },
+    {
+      "name": "Card/Card Radius",
+      "type": "Size",
+      "value": "1",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-card_card-radius",
+      "css_value": "1rem"
+    },
+    {
+      "name": "Tag/Tag Radius",
+      "type": "Size",
+      "value": "0.75",
+      "unit": "rem",
+      "linked": false,
+      "css_var": "--ac-tag_tag-radius",
+      "css_value": "0.75rem"
+    }
+  ]
+}

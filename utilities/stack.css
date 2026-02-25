@@ -1,3 +1,0 @@
-.ac-stack { display: flex; flex-direction: column; gap: var(--ac-space-16); }
-.ac-stack--sm { gap: var(--ac-space-8); }
-.ac-stack--lg { gap: var(--ac-space-24); }

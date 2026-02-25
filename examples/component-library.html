@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attain Design System — Component Library</title>
+  <link rel="stylesheet" href="../assets/fonts/fonts.css">
+  <link rel="stylesheet" href="../tokens/css-variables.css">
+  <style>
+    body { margin:0; font-family: var(--ac-font-body, Inter, system-ui, sans-serif); background: var(--ac-background-color_bg-primary, #f4f4ef); color: var(--ac-text-color_text-primary, #151617); }
+    .wrap { max-width: var(--ac-container_container-width, 1280px); margin: 0 auto; padding: 2rem; }
+    .top { display:flex; align-items:center; gap:1rem; margin-bottom: 2rem; }
+    .top img { height: 36px; width:auto; }
+    .grid { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+    .card { background: var(--ac-card_card-primary-bg, #fff); border:1px solid var(--ac-card_card-primary-border, #ddd); border-radius: var(--ac-card_card-radius, 1rem); padding: var(--ac-card_card-padding, 1.5rem); }
+    .btn { display:inline-block; padding: var(--ac-button_button-padding-vertical, 1rem) var(--ac-button_button-padding-horizontal, 1.5rem); border-radius: var(--ac-button_button-radius, .75rem); background: var(--ac-core-accent-color_accent-primary, #e33b25); color: var(--ac-text-color_text-accent-on-primary, #fff); text-decoration:none; font-family: var(--ac-font-button, inherit); font-weight:600; }
+    .tag { display:inline-block; margin-bottom:.75rem; padding:.3rem .6rem; border-radius: var(--ac-radius-round, 100rem); background: var(--ac-core-color-tint_accent-primary-a10, rgba(227,59,37,.1)); color: var(--ac-core-accent-color_accent-primary, #e33b25); font-size:.875rem; }
+    h1,h2,h3 { font-family: var(--ac-font-heading, inherit); }
+    @media (max-width: 991px){ .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <img src="../assets/logos/Attain.svg" alt="Attain logo">
+      <div>
+        <h1 style="margin:0;">Attain Design System</h1>
+        <p style="margin:.25rem 0 0;">Component demo wired to CSV-generated tokens + font placeholder file.</p>
+      </div>
+    </div>
+
+    <p><a class="btn" href="./landing-page.html">Open Landing Example</a></p>
+
+    <div class="grid" style="margin-top:1.25rem;">
+      <div class="card"><span class="tag">Tokens</span><h3>CSV-backed variables</h3><p>All CSS custom properties are generated from your uploaded CSV exports.</p></div>
+      <div class="card"><span class="tag">Assets</span><h3>Logo included</h3><p>Both standard and inverted SVG logo files are included under <code>assets/logos</code>.</p></div>
+      <div class="card"><span class="tag">Fonts</span><h3>Placeholder ready</h3><p>Drop your font files in <code>assets/fonts</code> and update <code>fonts.css</code>.</p></div>
+    </div>
+  </div>
+</body>
+</html>

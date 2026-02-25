@@ -1,0 +1,54 @@
+{
+  "generated_from": [
+    "variables (4).csv",
+    "variables (5).csv"
+  ],
+  "count": 5,
+  "items": [
+    {
+      "name": "Slider/5 slides",
+      "type": "Number",
+      "value": "5",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-slider_5-slides",
+      "css_value": "5"
+    },
+    {
+      "name": "Slider/4 slides",
+      "type": "Number",
+      "value": "4",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-slider_4-slides",
+      "css_value": "4"
+    },
+    {
+      "name": "Slider/3 slides",
+      "type": "Number",
+      "value": "3",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-slider_3-slides",
+      "css_value": "3"
+    },
+    {
+      "name": "Slider/2 slides",
+      "type": "Number",
+      "value": "2",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-slider_2-slides",
+      "css_value": "2"
+    },
+    {
+      "name": "Slider/1.5 slides",
+      "type": "Number",
+      "value": "1.5",
+      "unit": null,
+      "linked": false,
+      "css_var": "--ac-slider_1_5-slides",
+      "css_value": "1.5"
+    }
+  ]
+}
